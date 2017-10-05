@@ -8,8 +8,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="Helpers\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Models\Domain\" />
-    <Folder Include="Models\Repositories\" />
+    <Folder Include="Interfaces\" />
     <Folder Include="Migrations\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\Shared\" />

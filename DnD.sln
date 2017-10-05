@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD", "DnD\DnD.csproj", "{181B11FC-6220-4FAC-BC86-1E91E054DE7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnD", "DnD\DnD.csproj", "{181B11FC-6220-4FAC-BC86-1E91E054DE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Model", "Domain.Model\Domain.Model.csproj", "{AB3620E5-DE18-474E-8D45-7808F7ACEA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.DAL", "Domain.DAL\Domain.DAL.csproj", "{D9245BBA-C95C-40C9-8F9C-5826C895CF07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{181B11FC-6220-4FAC-BC86-1E91E054DE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{181B11FC-6220-4FAC-BC86-1E91E054DE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{181B11FC-6220-4FAC-BC86-1E91E054DE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3620E5-DE18-474E-8D45-7808F7ACEA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3620E5-DE18-474E-8D45-7808F7ACEA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3620E5-DE18-474E-8D45-7808F7ACEA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3620E5-DE18-474E-8D45-7808F7ACEA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9245BBA-C95C-40C9-8F9C-5826C895CF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9245BBA-C95C-40C9-8F9C-5826C895CF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9245BBA-C95C-40C9-8F9C-5826C895CF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9245BBA-C95C-40C9-8F9C-5826C895CF07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

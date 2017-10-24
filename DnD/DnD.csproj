@@ -9,7 +9,6 @@
     <Folder Include="Helpers\" />
     <Folder Include="Extensions\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Migrations\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\css\" />
@@ -20,6 +19,10 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.DAL\Domain.DAL.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,11 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Domain.DAL.DbContext
 {
-    public class DndDbContext: Microsoft.EntityFrameworkCore.DbContext, IDndDbContext
+    public partial class DndDbContext: Microsoft.EntityFrameworkCore.DbContext, IDndDbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public DndDbContext(DbContextOptions<DndDbContext> optionsBuilder): base(optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder);
         }
 
         public virtual DbSet<Item> Items { get; set; }

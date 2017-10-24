@@ -2,6 +2,9 @@
 
 namespace Domain.Model.Model
 {
+    /// <summary>
+    /// Describe any person in DND world
+    /// </summary>
     public class Person
     {
         public int PersonId { get; set; }

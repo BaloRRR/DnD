@@ -11,6 +11,6 @@ namespace Domain.Model.Model
         public byte BackpackTypeId { get; set; }
         public BackpackType BackpackType { get; set; }
 
-        public virtual IEnumerable<Item> Items { get; set; }
+        public virtual ICollection<Item> Items { get; set; }
     }
 }
